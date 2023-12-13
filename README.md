@@ -1,5 +1,27 @@
 # Programação Estruturada: Prova 01
 
+## Questão Exemplo:
+
+Faça um programa para imprimir os numeros pares maiores que 0 até o número máximo digitado pelo usuário
+
+### Entrada
+
+- n
+
+### Saída
+
+- n1, n2, n3
+
+### Exemplo 1
+
+Entrada: 
+
+- 10
+
+Saída: 
+
+- 2, 4, 6, 8, 10
+
 ## Questão 1:
 
 Faça um programa que leia 3 números inteiros e os imprima em ordem crescente.

@@ -1,3 +1,9 @@
+def q_exemplo():
+    n = int(input(""))
+    for i in range(0, n+1) :
+        if i>1 and i % 2 == 0:
+            print(i)
+
 def q1():
     n1 = int(input(""))
     n2 = int(input(""))
@@ -31,15 +37,26 @@ def q2():
     print(f"{valor_total:.2f}")
 
 def q3():
+    n = int(input(""))
     for i in range(1, n + 1):
+        for j in range(1, i + 1 ):
+            print(j, end=' ')
+        print()
         # Adiciona espaços à esquerda para alinhar os números
-        espacos = ' ' * (n - i)
+        #espacos = ' ' * (n - i)
         
         # Imprime a sequência de 1 até i
-        sequencia = ' '.join(map(str, range(1, i + 1)))
+        #sequencia = ' '.join(map(str, range(1, i + 1)))
         
         # Imprime a linha formatada
-        print(f"{espacos}{sequencia}")
+        #print(f"{espacos}{sequencia}")
 
 def q4():
     pass
+
+def main():
+    # teste suas questões manualmente aqui
+    pass
+
+if __name__ == "__main__":
+    main()
