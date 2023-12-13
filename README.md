@@ -64,13 +64,17 @@ O programa deve exibir os 03 números lidos impressos em ordem crescente, cada u
 Entrada:
 
 - 555
+  
 - 777
+  
 - 666
 
 Saída:
 
 - 555
+  
 - 666
+  
 - 777
 
 ## Questão 2:
@@ -92,6 +96,7 @@ Um valor real com duas casas decimais
 Entrada:
 
 - 1
+
 - 80
 
 Saída:
@@ -105,9 +110,13 @@ Zelda e seus amigos tiveram uma brilhante ideia durante as aulas da monitoria da
 Supondo para n = 5:
 
 (primeira iteração):   1
+
 (segunda iteração):    1 2
+
 (terceira iteração):   1 2 3
+
 (quarta iteração):     1 2 3 4
+
 (quinta iteração):     1 2 3 4 5
 
 ### Formato de entrada
@@ -128,14 +137,23 @@ Entrada:
 Saída:
 
 1
+
 1 2
+
 1 2 3
+
 1 2 3 4
+
 1 2 3 4 5
+
 1 2 3 4 5 6
+
 1 2 3 4 5 6 7
+
 1 2 3 4 5 6 7 8
+
 1 2 3 4 5 6 7 8 9
+
 1 2 3 4 5 6 7 8 9 10
 
 
@@ -155,17 +173,23 @@ Um número real, com duas casas decimais, simbolizando a média das notas da sal
 ### Exemplo
 
 #### Entrada
+
 10.00
+
 -1
 
 #### Saída
+
 10.00
 
 #### Entrada
 
 10.00
+
 7.00
+
 5.00
+
 -1
 
 #### Saída
