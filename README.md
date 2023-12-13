@@ -2,222 +2,125 @@
 
 ## Questão 1:
 
-Faça um programa que calcula a quantidade de divisores de um número (incluindo 1 e o próprio número) que são divisíveis por 3.
-
-[Referência](https://www.thehuxley.com/problem/2842?quizId=4323)
+Faça um programa que leia 3 números inteiros e os imprima em ordem crescente.
 
 ### Formato de entrada
 
-O usuário deve digitar um inteiro N.
+O usuário deve digitar 03 números inteiros sequencialmente.
 
 ### Formato de saída
 
-O programa deve exibir um inteiro R, sendo R o número de divisores de N que são divisiveis por 3. Caso não tenha nenhum, imprima "O numero nao possui divisores multiplos de 3" sem as aspas.
-
-O programa deve imprimir
-
-Quantidade de divisores divisiveis por 3: n / O numero nao possui divisores multiplos de 3
+O programa deve exibir os 03 números lidos impressos em ordem crescente, cada um em uma linha
 
 ### Exemplo 1:
-
-Entrada:
-
-- 7
-
-Saída:
-
-- O número não possui divisores multiplos de 3
-
-### Exemplo 2:
-
-Entrada:
-
-- 3
-
-Saída:
-
-- Quantidade de divisores divisiveis por 3: 1
-
-### Exemplo 3:
 
 Entrada:
 
 - 555
+- 777
+- 666
 
 Saída:
 
-- Quantidade de divisores divisiveis por 3: 4
+- 555
+- 666
+- 777
 
-### Exemplo 4:
+## Questão 2:
 
-Entrada:
+A Locadora de Veículos Eudora lançou uma grande promoção esse mês: pagando apenas R$ 90 por diária, o cliente pode alugar um carro de passeio. Para cada diária, o cliente recebe uma cota de quilometragem de 100 Km. Cada quilômetro a mais custará uma taxa extra de R$ 12.
 
-- 3144
+Escreva um programa que receba como entrada a quantidade de dias e a quilometragem total rodada por um cliente dessa locadora e exiba o valor total a ser pago com duas casas decimais
 
-Saída:
+### Formato de entrada
 
-- Quantidade de divisores divisiveis por 3: 8
+Dois valores inteiros, separados por uma quebra de linha
 
-### Exemplo 5:
+### Formato de saída
 
-Entrada:
-
-- 17640
-
-Saída:
-
-- Quantidade de divisores divisiveis por 3: 48
-
-## Questões 2:
-
-Escreva um programa que receba como entrada dois números inteiros e retorne a soma dos números positivos no intervalo definido por eles, considerando inclusive os extremos.
-
-[Referência](https://www.thehuxley.com/problem/406?quizId=4323)
-
-Obs: o intervalo pode ser crescente ou decrescente
+Um valor real com duas casas decimais
 
 ### Exemplo 1:
-
-Entrada:
-
-- -2
-- 2
-
-Saída:
-
-- 3
-
-### Exemplo 2:
 
 Entrada:
 
 - 1
-- 3
+- 80
 
 Saída:
 
-- 3
-
-### Exemplo 3:
-
-Entrada:
-
-- 10
-- -10
-
-Saída:
-
-- 55
-
-#### Formato de entrada
-
-Dois números inteiros
-
-Dica: os números podem ser informados em qualquer ordem (não necessariamente o primeiro será menor que o segundo)
-
-#### Formato de saída
-
-Um número inteiro
+- 90.00
 
 ## Questão 3:
 
-Uma empresa está migrando seus serviços para a nuvem e deseja calcular o custo total de infraestrutura para um determinado serviço web. Eles têm dados sobre o uso mensal de recursos e os custos associados a esses recursos. Sua tarefa é escrever um programa em Python que calcule o custo total mensal com base nas informações fornecidas.
+Zelda e seus amigos tiveram uma brilhante ideia durante as aulas da monitoria da cadeira de introdução a programação: que tal fazer um programa que, dado um número n (1 <= n <= 40) printa na tela os numeros de 1 até o número da iteração atual, sendo que serão feitas n iterações, como demonstrado no exemplo a seguir:
 
-A empresa utiliza os seguintes recursos, com os respectivos custos mensais:
+Supondo para n = 5:
 
-1. **Servidores**: O custo mensal por servidor é de R$ 500.
+(primeira iteração):   1
+(segunda iteração):    1 2
+(terceira iteração):   1 2 3
+(quarta iteração):     1 2 3 4
+(quinta iteração):     1 2 3 4 5
 
-2. **Banco de Dados**: O custo mensal por unidade de capacidade do banco de dados é de R$ 100.
+### Formato de entrada
 
-3. **Armazenamento de Dados**: O custo mensal por gigabyte de armazenamento de dados é de R$ 0,10.
+Um inteiro n (1 <= n <= 40)
 
-4. **Transferência de Dados**: O custo mensal por gigabyte de transferência de dados de entrada e saída é de R$ 0,05.
+### Formato de saída
 
-A entrada será fornecida da seguinte forma:
+A sequência (1 ... M), onde M é o numero da iteração atual do laço, que será executada n vezes.
 
-n - O número de servidores usados.
-m - O número de unidades de capacidade do banco de dados.
-o - A quantidade de armazenamento de dados em gigabytes.
-p - A quantidade de transferência de dados de entrada e saída em gigabytes.
-
-Seu programa deve calcular o custo total mensal com base nessas informações e imprimir o resultado. Além disso, ele deve verificar se o custo total mensal ultrapassa um limite máximo de R$ 10.000. Se o custo total mensal for maior que esse limite, o programa deve exibir uma mensagem indicando que o custo está acima do limite.
 
 ### Exemplo 1:
 
 Entrada:
 
-```
-Número de servidores: 5
-Unidades de capacidade do banco de dados: 10
-Armazenamento de dados (em GB): 500
-Transferência de dados de entrada e saída (em GB): 1000
-```
+- 10
 
 Saída:
 
-```
-O custo total mensal estimado para a infraestrutura é de R$ 8,500.
-```
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9 10
 
-### Exemplo 2:
 
-Entrada:
+## Questão 4
 
-```
-Número de servidores: 10
-Unidades de capacidade do banco de dados: 50
-Armazenamento de dados (em GB): 1000
-Transferência de dados de entrada e saída (em GB): 10000
-```
+Um professor precisa saber qual a média das notas de uma sala e pediu sua ajuda para construir um programa que permita inserir as notas finais de cada aluno e, ao final, exibir a média da sala. Lembre-se que as notas variam de 0 a 10 e o professor digitará -1 quando quiser encerrar as entradas. Obs.: use variáveis de ponto flutuante de dupla precisão.
 
-Saída:
+### Entrada
 
-```
-O custo total mensal está acima do limite.
-```
+Diversos valores reais, um por linha, simbolizando as notas finais de cada aluno.
 
-## Questão 4:
+### Saída
 
-Escreva um programa que calcule os N termos da série S abaixo:
+Um número real, com duas casas decimais, simbolizando a média das notas da sala.
 
-S = (1/3) + (2/6) + (3/9) + (4/12) + …
 
-O seu programa deve imprimir na saída padrão tanto os termos da série quanto o valor da soma com precisão de 2 casas decimais.
+### Exemplo
 
-[Referência](https://www.thehuxley.com/problem/1089)
+#### Entrada
+10.00
+-1
 
-### Formato de entrada
+#### Saída
+10.00
 
-Um valor N que representa a quantidade de termos da série.
+#### Entrada
 
-### Formato de saída
+10.00
+7.00
+5.00
+-1
 
-Os termos da série e o valor da soma com precisão de 2 casas decimais.
+#### Saída
 
-### Exemplos:
-
-Entrada:
-
-- 0
-
-Saída:
-
-- 0.00
-
-Entrada:
-
-- 8
-
-Saída:
-
-- 1/3 + 2/6 + 3/9 + 4/12 + 5/15 + 6/18 + 7/21 + 8/24
-- 2.67
-
-Entrada:
-
-- 4
-
-Saída:
-
-- 1/3 + 2/6 + 3/9 + 4/12
-- 1.33
+7.33
