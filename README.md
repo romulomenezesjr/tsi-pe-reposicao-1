@@ -1,5 +1,30 @@
 # Programação Estruturada: Prova 01
 
+## Instruções
+
+### Execução manual
+
+Para executar o seu programa: Altere o código no arquivo main com a sua solução e execute no terminal o comando a seguir:
+
+```sh
+python main.py
+```
+
+### Teste com pytest
+
+Para testar o seu programa com pytest: Altere o código no arquivo main com a sua solução e execute no terminal o comando a seguir:
+
+```sh
+pytest
+```
+
+Ao concluir, salve e envie com os comandos a seguir:
+```sh
+git add .
+git commit -m "resolução"
+git push
+```
+
 ## Questão Exemplo:
 
 Faça um programa para imprimir os numeros pares maiores que 0 até o número máximo digitado pelo usuário

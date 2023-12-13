@@ -42,21 +42,12 @@ def q3():
         for j in range(1, i + 1 ):
             print(j, end=' ')
         print()
-        # Adiciona espaços à esquerda para alinhar os números
-        #espacos = ' ' * (n - i)
-        
-        # Imprime a sequência de 1 até i
-        #sequencia = ' '.join(map(str, range(1, i + 1)))
-        
-        # Imprime a linha formatada
-        #print(f"{espacos}{sequencia}")
 
 def q4():
     pass
 
 def main():
-    # teste suas questões manualmente aqui
-    pass
+    q_exemplo()
 
 if __name__ == "__main__":
     main()
